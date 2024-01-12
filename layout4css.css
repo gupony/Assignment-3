@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+#wrapper-div{
+    width: 60%;
+    min-height: 100px;
+    margin: auto;
+    
+
+}
+#logo-nav-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: #75485E;
+   
+    
+
+}
+#logo-div{
+    width: 50%;
+    min-height: 50px;
+    float: left;
+    line-height: 50px;
+    padding-left: 2%;
+    font-weight: bold;
+    
+    
+
+}
+#nav-div{
+    width: 50%;
+    min-height: 50px;
+   
+   float: right;
+   text-align: center;
+    line-height: 50px;
+    
+  
+    
+
+}
+.row{
+    width: 100%;
+    min-height: 100px;
+   
+    margin-top: 10px;
+    
+
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+
+}
+.col{
+    width: 20%;
+    min-height: 100px;
+    background-color:#CB904D;
+    float: left;
+  
+
+}
+.col:nth-child(2), .col:nth-child(3){
+    margin-left: 5%;
+    margin-right: 5%;
+   
+
+}
+#boxes{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+    
+   
+   
+
+}
+ .box{
+   width: 30%;
+   min-height: 200px;
+   background-color:#51A3A3 ;
+   float:left;
+   text-align: center;
+   line-height: 150px;
+   
+
+}
+.box:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+    
+ 
+ }
+#footer-div  {
+    width:100%;
+    min-height: 50px;
+    background-color: #75485E;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+
+}

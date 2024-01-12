@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+  
+  #wrapper-div {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #logo-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: #C7DBE6;
+    padding: 2% ;
+    text-align: left;
+    line-height: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #nav-div {
+    width: 100%;
+    min-height: 30px;
+    background-color: #BFB1C1;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  #header-banner-div {
+    width: 100%;
+    min-height: 100px;
+    background-color: #BFB1C1;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  #main-div {
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 20px;
+  }
+  
+  #sidebar-div {
+    width: 20%;
+    min-height: 400px;
+    background-color: #B5BEC6;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+  }
+  
+  #body-area-div {
+    width: 75%;
+    min-height: 400px;
+    background-color: #B5BEC6;
+    float: right;
+    text-align: center;
+    line-height: 400px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  #footer-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: #C7DBE6;
+    text-align: center;
+    line-height: 50px;
+  }
